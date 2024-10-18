@@ -1,8 +1,8 @@
 {
     "DQSupport": {
-        "branch": "1-support-of-qsd-workbench",
+        "branch": "master",
         "repo": "https://github.com/DeltaQ-SD/pnsol-deltaq-clone.git",
-        "rev": "aba01aa5acf70333bc692f10ee655b25f935aeac",
+        "rev": "7e4194115ebf8619711c1fb342c09f690bfa2fe7",
         "type": "git"
     },
     "IHaskell": {
@@ -10,12 +10,10 @@
         "description": "A Haskell kernel for the Jupyter project.",
         "homepage": "",
         "owner": "DeltaQ-SD",
-        "repo": "IHaskell",
-        "rev": "8fb4ad7682340215231c9c4eb83e0614fcba4e23",
-        "sha256": "1kavj2a4zdrj791kyin4smrpgpqi1hhhqykzqa5w4bpa4glik87m",
-        "type": "tarball",
-        "url": "https://github.com/DeltaQ-SD/IHaskell/archive/8fb4ad7682340215231c9c4eb83e0614fcba4e23.tar.gz",
-        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+        "branch" : "dqsd-patches",
+        "repo": "https://github.com/DeltaQ-SD/IHaskell.git",
+        "rev": "641e7b9ecc21130847253581e9551eedbd3f1723",
+        "type": "git"
     },
     "dqsd-classes": {
         "branch": "main",

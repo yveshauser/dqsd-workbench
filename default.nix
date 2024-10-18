@@ -52,7 +52,7 @@ let
    hp.ihaskell-diagrams
    hp.ihaskell-graphviz
    hp.ihaskell-hatex
-   hp.ihaskell-juicypixels
+   # hp.ihaskell-juicypixels
    # ihaskell-widgets can cause compilation issues
    # hp.ihaskell-widgets
    ];

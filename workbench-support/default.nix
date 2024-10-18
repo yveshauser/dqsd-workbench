@@ -9,7 +9,7 @@
   # the haskell.nix functionality itself as an overlay.
   haskellNix.nixpkgsArgs
 , ghcNixVersion ? "ghc94"
-, index-state ? "2023-10-13T21:48:44Z"
+#, index-state ? "2023-10-13T21:48:44Z"
 }:
 let
   projectDrv = pkgs.haskell-nix.project {
@@ -23,7 +23,7 @@ let
     compiler-nix-name = ghcNixVersion;
 
     # Index state (note best practice is to use this with cabal v2-update as well)
-    index-state = index-state;
+    # index-state = index-state;
   };
 
   projectShell = projectDrv.shellFor {
